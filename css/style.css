@@ -230,7 +230,7 @@
 
 #food-menu .food-menu-heading{
    text-align: center;
-   font-size: 4rem;
+   font-size: 3rem;
    font-weight: 400;
    text-transform: uppercase;
    color: #555;
@@ -271,3 +271,43 @@
    color: #117956;
    font-weight: 700;
 }
+
+/* ------------------Testimonial Styling------------ */
+#testimonials{
+   padding: 5rem 0;
+   background: #f5f5f5;
+}
+#testimonials .testimonial-title{
+   text-align: center;
+   font-size: 3rem;
+   font-weight: 400;
+   text-transform: uppercase;
+   color: #555;
+}
+.testimonial-container{
+   display: flex;
+   justify-content: space-between;
+   font-size: 1.6rem;
+   padding: 1rem;
+}
+.fa-star{
+   color: #ffa600;
+}
+.testimonial-box .testimonial-text{
+   margin: 1rem 0;
+   color: #444;
+}
+.testimonial-box{
+   text-align: center;
+   padding: 1rem;
+}
+.customer-photo img{
+   display: block;
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   object-fit: cover;
+   object-position: center;
+   margin: auto;
+}
+
