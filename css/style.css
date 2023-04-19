@@ -364,3 +364,11 @@
 .form-container a{
    font-size: 1.2rem;
 }
+#footer h2{
+   text-align: center;
+   font-size: 2rem;
+   padding: 3rem;
+   font-weight: 500;
+   color: #fff;
+   background: rgb(65,65,65);
+}
